@@ -1,0 +1,10 @@
+#title {
+    margin: auto;
+    width: 50%
+}
+.board {
+    border: 30px solid;
+    border-image: 1 ;
+    border-image-source: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(78,94,246,1) 50%, rgba(0,212,255,1) 100%);
+    background: lightblue;
+}

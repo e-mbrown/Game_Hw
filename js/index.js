@@ -135,6 +135,7 @@ const submitFinalAnswer = (answers) => {
             const restart = document.createElement('button')
             restart.innerText = 'Reset'
             restart.addEventListener('click', () => console.log('restart'))
+            formFinal.appendChild(restart)
         }
     })
     formFinal.appendChild(response)
